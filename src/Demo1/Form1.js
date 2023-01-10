@@ -54,7 +54,9 @@ const Form1 = () => {
               Submit
             </button>
           </div>
-          {toggleT1 ? <Alertpop /> : null}
+          {toggleT1 ? (
+            <Alertpop toggleT1={toggleT1} setToggleT1={setToggleT1} />
+          ) : null}
         </form>
       </div>
     </>
