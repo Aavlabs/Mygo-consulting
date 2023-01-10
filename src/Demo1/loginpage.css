@@ -1,0 +1,121 @@
+.top{
+    background-color: rgb(222, 239, 240);
+    height: 100vh;
+}
+.topnav{
+    height: 70px;
+    background-color: rgb(253, 8, 16);
+    display: grid;
+    grid-template-columns: 15% 1fr;
+  
+}
+.navbar{
+    display: flex;
+    margin-left: 20%;
+    font-size: 15px;
+    gap: 10px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+.midbut>button{
+    background-color: rgb(89, 89, 238);
+    height: 50px;
+    width: 180px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px ;
+    cursor: pointer;
+}
+.midcol{
+    background-color: rgb(222, 165, 60);
+    width: 30px;
+}
+.navbar>button{
+    margin-left: 100px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.logo>img{
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+}
+.main{
+    margin-top: 110px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.maintop{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 75%;
+    margin-top: 10px;
+}
+.maincard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+}
+.maincard>div{
+    width: 300px;
+    height: 250px;
+    margin-left: 70px;
+    margin-top: 100px;
+    border: 0.5px solid gray;
+    background-color: rgb(248, 203, 211);
+}
+.innercard{
+    display: grid;
+    grid-template-rows: 20% 55% 25%;
+
+
+}
+.imgsizer>img{
+    height: 40px;
+    width: 50px;
+    margin-right: 170px;
+    margin-top: 15px;
+}
+.second{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+    margin-right: 48px;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.third{
+    margin-right: 60px;
+}
+.move{
+    margin-left: 150px;
+}
+.logo{
+    margin-top: 15px;
+    margin-right: 180px ;
+}
+.imgs>img{
+    height: 70px;
+    width: 100px;
+    
+    margin-left: -150px;
+}
+.main1{
+    /* margin-right: 20px; */
+    font-weight: bold;
+    font-size: 30px;
+    align-content: center;
+}
+.navlast{
+    margin-left: 30%;
+    font-size: 20px;
+    font-weight: bold;
+}

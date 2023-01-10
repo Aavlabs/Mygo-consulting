@@ -1,0 +1,59 @@
+.cont{
+    width: 100%;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 30% 30% 30% ;
+  }
+
+
+.card,.card1,.card2{
+    background-color:rgb(177, 30, 30);
+    background-size: cover;
+    color: white;
+    width: 250px;
+    height: 250px;
+    border:none;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 5px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+.title{
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding: 7px;
+    font-family: 'Unna', serif;
+    font-size: 20px; 
+   
+}
+.putawayicon{
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    padding-left: 50px;
+    margin-top: 42px;
+}
+.plusicon{
+    position: absolute;
+    margin-top: 20px;
+    margin-left:-12px;
+
+}
+.tilebody{
+    text-align: right;
+    padding-right: 15px;
+    margin-right: 82px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+     margin-top: 8px;
+}
+
+
+.f1btn{
+    position: absolute;
+    left: 13px;
+    top: 74px;
+}

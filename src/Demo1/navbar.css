@@ -1,0 +1,33 @@
+.topnav{
+    height: 70px;
+    background-color: rgb(253, 8, 16);
+    display: grid;
+    grid-template-columns: 15% 1fr;
+  
+}
+.navbar{
+    display: flex;
+    margin-left: 20%;
+    font-size: 15px;
+    gap: 10px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+.imgs>img{
+    height: 70px;
+    width: 100px;
+  
+    margin-left: -105px;
+}
+.main1{
+    /* margin-right: 20px; */
+    font-weight: bold;
+    font-size: 23px;
+    align-content: center;
+}
+.navlast{
+    margin-left: 30%;
+    font-size: 20px;
+    font-weight: bold;
+}

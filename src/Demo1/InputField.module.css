@@ -1,0 +1,91 @@
+.topmain{
+    width: 100%;
+    height: 100vh;
+   
+   
+
+}
+.top{
+    margin-top: 100px;
+    margin-left: 40%;
+    row-gap: 15px;
+    
+}
+
+.inFir {
+    display: flex;
+    gap: 10px;
+   
+  padding-left: 100px;
+  
+}
+.heading1{
+    margin-top: 8px;
+    
+}
+.heading2{
+    margin-top: 8px;
+   margin-left: -20px;
+    gap: 5px;
+}
+.hedtop1{
+    padding-left: -30px;
+}
+
+.whText{
+    width: 250px;
+    height: 30px;
+    border: 1.5px solid #dadada;
+    border-radius: 5px;  
+}
+.heading3{
+    margin-top: 8px;
+   margin-left: -8px;
+    gap: 5px;
+}
+.heading4{
+    margin-top: 8px;
+   margin-left: -20px;
+    gap: 5px;
+}
+.heading5{
+    gap: 5px;
+   margin-left: -2px;
+   margin-top: 8px;
+}
+.heading6{
+    margin-top: 8px;
+   margin-left: -35px;
+    gap: 5px;
+}
+.heading7{
+    margin-top: 8px;
+   margin-left: -30px;
+    gap: 5px;
+}
+.heading8{
+    margin-top: 8px;
+   margin-left:-20px;
+    gap: 5px;
+}
+
+.btn1{
+    display: flex;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    margin-left: 40px;
+   
+}
+.subBtn{
+    border-radius: 5px;
+   
+}
+.submit{
+    border-radius: 5px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 20px;
+
+
+}
