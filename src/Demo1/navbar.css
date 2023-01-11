@@ -1,6 +1,6 @@
 .topnav{
     height: 70px;
-    background-color: rgb(253, 8, 16);
+    background-color: #0d62a7;
     display: grid;
     grid-template-columns: 15% 1fr;
   
