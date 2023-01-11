@@ -1,9 +1,10 @@
 import React from "react";
 import AL from "./Popup2.module.css";
 
-const Alertpop2 = ({ toogle, setToogle }) => {
-  const toogleHandler = () => {
-    setToogle(!toogle);
+const Alertpop2 = ({ toggleT1, setToggleT1 }) => {
+  const toggleHandlerT1 = (event) => {
+    event.preventDefault();
+    setToggleT1(!toggleT1);
   };
   return (
     <>
@@ -15,7 +16,11 @@ const Alertpop2 = ({ toogle, setToogle }) => {
         </div>
         <div className={AL.alertbody}>
           <h4 style={{ paddingTop: "10px" }}>Cycle Account Added</h4>
-          <button style={{ marginTop: "20px" }} className={AL.btn1}>
+          <button
+            onClick={toggleHandlerT1}
+            style={{ marginTop: "20px" }}
+            className={AL.btn1}
+          >
             Okay
           </button>
         </div>
