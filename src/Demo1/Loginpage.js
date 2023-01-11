@@ -32,7 +32,7 @@ const Loginpage = () => {
               {" "}
               <a
                 style={{ textDecoration: "none", color: "black" }}
-                href="https://genuine-cocada-730bb3.netlify.app/"
+                href="https://unique-griffin-c88573.netlify.app/"
               >
                 Analytical App
               </a>
